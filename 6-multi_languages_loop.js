@@ -1,7 +1,8 @@
 const message = ["C is fun", "Python is cool", "JavaScript is amazing"];
 
-if(i=0; i<message.length; i++){
+while(i<message.length){
   console.log(message[i]);
+  i++;
 }
 
 
